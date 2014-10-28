@@ -1,0 +1,50 @@
+CREATE TABLE `rating` (
+  `rating_id` int(11) NOT NULL AUTO_INCREMENT,
+  `rating_parameter` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`rating_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE `comments` (
+  `comment_id` varchar(100) DEFAULT NULL,
+  `user_id` varchar(100) DEFAULT NULL,
+  `comments` varchar(2000) DEFAULT NULL,
+  KEY `user_id` (`user_id`),
+  CONSTRAINT `comments_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE `admin` (
+  `identifier` int(11) NOT NULL AUTO_INCREMENT,
+  `first_name` varchar(40) DEFAULT NULL,
+  `last_name` varchar(40) DEFAULT NULL,
+  `user_name` varchar(100) DEFAULT NULL,
+  `password` varchar(100) DEFAULT NULL,
+  `phone_number` bigint(20) DEFAULT NULL,
+  `email` varchar(100) DEFAULT NULL,
+  `comments` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`identifier`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+CREATE TABLE `user` (
+  `user_id` varchar(100) NOT NULL,
+  `name` varchar(100) DEFAULT NULL,
+  `phone_number` bigint(20) DEFAULT NULL,
+  `email` varchar(100) DEFAULT NULL,
+  `date_of_birth` date DEFAULT NULL,
+  `current_dt` datetime ,
+  PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+CREATE TABLE `user_rating` (
+  `user_rating_id` varchar(50) NOT NULL,
+  `user_id` varchar(100) DEFAULT NULL,
+  `rating_id` int(11) DEFAULT NULL,
+  `actual_rating` float DEFAULT NULL,
+  PRIMARY KEY (`user_rating_id`),
+  KEY `rating_id` (`rating_id`),
+  KEY `user_id` (`user_id`),
+  CONSTRAINT `user_rating_ibfk_1` FOREIGN KEY (`rating_id`) REFERENCES `rating` (`rating_id`),
+  CONSTRAINT `user_rating_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;

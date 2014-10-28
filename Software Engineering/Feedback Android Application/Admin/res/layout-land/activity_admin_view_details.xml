@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:scrollbars="vertical" 
+  android:layout_height="wrap_content" 
+  android:layout_width="fill_parent">
+
+<RelativeLayout 
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:clickable="false" >
+
+    <TextView
+        android:id="@+id/v_last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/v_first_name"
+        android:layout_below="@+id/v_fn"
+        android:layout_marginTop="25dp"
+        android:text="@string/lastname"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/v_ln"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/v_last_name"
+        android:layout_alignBottom="@+id/v_last_name"
+        android:layout_alignLeft="@+id/v_fn"
+        android:textStyle="bold|italic"
+        android:text="LN"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/v_un"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/v_user_name"
+        android:layout_alignBottom="@+id/v_user_name"
+        android:layout_alignLeft="@+id/v_ln"
+        android:textStyle="bold|italic"
+        android:text="UN"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/v_pn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/v_phone_number"
+        android:layout_alignLeft="@+id/v_un"
+        android:textStyle="bold|italic"
+        android:text="PN"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/v_em"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/v_email"
+        android:layout_alignBottom="@+id/v_email"
+        android:layout_alignLeft="@+id/v_pn"
+        android:textStyle="bold|italic"
+        android:text="EM"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/v_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/v_last_name"
+        android:layout_below="@+id/v_ln"
+        android:layout_marginTop="34dp"
+        android:text="@string/username"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/v_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/v_first_name"
+        android:layout_below="@+id/v_un"
+        android:layout_marginTop="27dp"
+        android:text="@string/phone_number"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/v_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/v_phone_number"
+        android:layout_below="@+id/v_phone_number"
+        android:layout_marginTop="26dp"
+        android:text="@string/email_id"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/v_fn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/v_first_name"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@+id/admin_details"
+        android:text="FN"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/admin_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="@string/admin_details"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/v_first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/admin_details"
+        android:layout_below="@+id/admin_details"
+        android:layout_marginRight="99dp"
+        android:layout_marginTop="61dp"
+        android:text="@string/firstname"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    
+     <Button
+        android:id="@+id/Logout"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/v_em"
+        android:layout_marginTop="43dp"
+        android:layout_toRightOf="@+id/v_email"
+        android:background="@drawable/custom_buttons"
+        android:text="Logout" />
+</RelativeLayout>
+</ScrollView>

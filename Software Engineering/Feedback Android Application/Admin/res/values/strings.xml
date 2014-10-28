@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Admin</string>
+    <string name="login_screen">Admin Login Screen</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_manager_update">ManagerUpdateActivity</string>
+    <string name="firstname">First Name*</string>
+    <string name="lastname">Last Name*</string>
+    <string name="username">User Name*</string>
+    <string name="password">Password*</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="phone_number">Phone No.*</string>
+    <string name="email_id">Email Id*</string>
+    <string name="update">Update</string>
+    <string name="confirm_password">Confirm password*</string>
+    <string name="title_activity_manager_register">ManagerRegister</string>
+    <string name="title_sign_up">SignUp Admin</string>
+    <string name="title_update">Update Info Admin</string>
+    <string name="comments">Reason for update*</string>
+    <string name="admin_handler">View and Update Details</string>
+    <string name="view_details">View Details</string>
+    <string name="update_details">Update Details</string>
+    <string name="title_activity_admin_view_details">View Admin Details</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="admin_details">Admin Details</string>
+	<string name="logout">Logout</string>
+</resources>

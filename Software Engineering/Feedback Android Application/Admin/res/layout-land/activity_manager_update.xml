@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:scrollbars="vertical" 
+  android:layout_height="wrap_content" 
+  android:layout_width="fill_parent">
+<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+    
+     <EditText
+         android:id="@+id/phone_number"
+         android:layout_width="300dp"
+         android:layout_height="30dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginTop="40dp"
+         android:background="@drawable/edittext"
+         android:ems="10"
+         android:layout_gravity="center"
+         android:hint="@string/phone_number"
+         android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/email_id"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:ems="20"
+        android:layout_gravity="center"
+        android:hint="@string/email_id"
+        android:inputType="textWebEmailAddress"
+        android:orientation="horizontal" />
+	    
+        <EditText
+        android:id="@+id/comments"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:ems="20"
+        android:layout_gravity="center"
+        android:hint="@string/comments"
+        android:inputType="textWebEmailAddress"
+        android:orientation="horizontal" />
+    
+    
+    <Button
+        android:id="@+id/update"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_buttons"
+        android:text="@string/update"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="245dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_buttons"
+        android:text="Logout" />
+
+</LinearLayout>
+</ScrollView>

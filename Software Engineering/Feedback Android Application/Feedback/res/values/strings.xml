@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Feedback</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="name">Name*</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email*</string>
+    <string name="dob">DoB</string>
+    <string name="proceed">Proceed</string>
+    <string name="user_info">User Info</string>
+    <string name="selectdate">Pick time</string>
+    <string name="title_activity_rate_restaurant">Give Feedback</string>
+    <string name="music">Music</string>
+    <string name="service">Service</string>
+    <string name="food">Food</string>
+    <string name="ambience">Ambience</string>
+    <string name="rate">Submit</string>
+    <string name="comments">Provide extra comments</string>
+    <string name="av">View Average Rating</string>
+
+</resources>
