@@ -1,6 +1,0 @@
-This projects is to parse the xml file through hybrid inlining and SAX parser .Storing it in the database and getting back the XML.
-Below are the steps.
-
-1: Created a relational schema from the department.dtd using the hybrid inlining method. Implement this schema using SQLite.
-2: Wrote  a Java program that parses the cs.xml file using a SAX parser and stores the data into your relational database. Your program should be general enough to handle any XML document that matches this DTD.
-3: Wrote a java program that accesses your database only (not the XML data) and prints the data in the output in XML form. That is, the output of this program must be similar to the content of the cs.xml file (doesn't have to be exactly the same).
