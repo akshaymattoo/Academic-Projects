@@ -1,0 +1,18 @@
+<!ELEMENT department (deptname, (gradstudent | staff | faculty | undergradstudent)*)>
+<!ELEMENT gradstudent (name, phone, email, address, office?, url?, gpa)>
+<!ELEMENT staff (name, phone, email, office?)>
+<!ELEMENT faculty (name, phone, email, office)>
+<!ELEMENT undergradstudent (name, phone, email, address, gpa)>
+<!ELEMENT name (lastname?,firstname)>
+<!ELEMENT address (city, state, zip)>
+<!ELEMENT deptname (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT zip (#PCDATA)>
+<!ELEMENT office (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT gpa (#PCDATA)>
+<!ELEMENT email (#PCDATA)>

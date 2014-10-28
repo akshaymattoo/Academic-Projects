@@ -1,0 +1,11 @@
+This project is the implementation of the Ebay API .
+I have used the shopping.com API for shopping. The eBay Commerce Network API ("ECN API") is a flexible way to access and recreate practically everything you see on Shopping.com. Use the "Search by keyword" method from the eBay Commerce Network Publisher API Use Cases.
+
+The result of a keyword search typically contains 5 products that best match the keyword query. Each product contains a link productOffersURL to the shopping.com web page that gives a detailed description of the product and a list of best offers from various sellers. So each product has a range minPrice - maxPrice of the prices offered by these sellers. We will ignore the list of offers and we will assume that when we buy this product we pay the minPrice.
+
+I have  used  PHP session to store the shopping basket (the list of chosen items throughout the session) as well as the results of the last search. For each chosen item, you store the Id, the name, the minPrice, the first image, and the productOffersURL (the link to the shopping.com web page that lists the best offers for this item). Your PHP script must be able to handle the following query strings:
+
+
+URL to have to look is below.
+
+http://omega.uta.edu/~axm5553/project4/buy.php

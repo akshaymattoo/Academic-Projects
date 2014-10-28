@@ -1,0 +1,460 @@
+Id,Title,Body,Tags
+58954,Render of UIElement Causes App To Hang For Several Seconds,"<p>I have a WPF application - using MVVM for the design pattern.</p>
+
+<p>In the Main View, there is a ContentPresenter that is bound to a property in the corresponding ViewModel.  I have type-referential datatemplate for the data type associated with that property.  Essentially, based on a certain action performed by the user, the ContentPresenter will display the data from a specific data template.  In the data template I have DevExpress' GridControl.  It sucks and I hate it, but due to company standards, I have to use it.  My main pain point is that it takes several noticable seconds for the UI to render to data template because of this GridControl.  Is there anything that I can do to mitigate this?  I'd like to display a ""please wait"" progress indicator, but even that gets stuck for several seconds...</p>
+
+<p>Please help.</p>
+",wpf devexpress
+58955,Determining the divergence of an integral. $1/x^p$,"<p>I am trying to determine for which p > 0 the improper integral $\int_{0}^{1}dx/x^p$ converges. The first step I have taken for these improper integrals was to set them in a form of a limit, but I am having a hard time doing this... Can anybody help?</p>
+",calculus limit
+58956,Best opensource/ free stacking software for mac for astrophotography,"<p>I am using snow leopard and mainly want it to automate the stacking as much as possible. I have seen that PixInSight looks pretty awesome, but that's not free, in-fact far from it, so I want something that is free that can do the same, or as much as possible.</p>
+",software astrophotography open-source macintosh
+58957,Is there a registry key to disable sounds on the SAP GUI?,"<p>Is there a registry key to disable sounds on the SAP GUI?</p>
+
+<p>I know that <a href=""http://howtosap.blogspot.co.uk/2011/05/disable-sap-gui-sound-or-notification.html"" rel=""nofollow"">sounds can be disabled manually</a>, but I want to be able to set the default value to 'off' on people's PC's.</p>
+",audio gui sap
+58958,"How to map ""special"" keys of the keyboard to some mappings in linux?","<p>I have recently bought a new keyboard, and it has a lot of unused special keys - like ""launch Excel"", ""launch Word"", etc. I suspect there is a way to map the keypresses on those keys to some useful actions (currently, they do absolutely nothing).</p>
+
+<p>How can I do this?</p>
+
+<p>NOTES:</p>
+
+<p>This is the usb keyboard. I found out that while most of the normal keys provide some info via the <code>/dev/input/event2</code> device, half the normal keys (not catchable by xev) do some action on <code>/dev/input/event3</code>.</p>
+
+<p>And there are other 9 keys that do not do anything on any of the input devices.</p>
+",linux keyboard keyboard-shortcuts linux-mint
+58959,Amazon AMI image out of date issue,"<p>I'm having huge problem. I create AMI image of the system then I create new system out of AMI image (using AWS management console). In new system (created out of image) in folder /etc/init.d/ my files are out of date. I don't see latest changes which I did to the files right before I've created an image.</p>
+
+<p>Does anybody know any explanation for this totally strange behaviour?</p>
+",linux amazon-web-services amazon-ami
+58960,Display Data in List view after SAX Parsing,"<p>Can anyone give me a full tutorial series Link or sample eclipse project code Link for displaying data in list view after SAX Parsing of XML in Android.</p>
+
+<p>Thanks in advance.   </p>
+",java android xml listview sax
+58961,basic redirect with HttpHandler (c#),"<p>i have a website which has recently moved to another domain (same but with different extension).</p>
+
+<p>the old site finishes with .co.uk and the new one is .com</p>
+
+<p>i want to use a httphandler to redirect all requests (if they are for .co.uk) to the equivalent page but with the .com extension (and to also rewrite the URL to match the change in location from .co.uk to com)</p>
+",asp.net redirect httphandler
+58962,Cannot create PlaceTokenizer class,"<p>Good day to everybody! I'm trying to create a project based on google's tutorial example for ""GWT Development with Activities and Places"" article.I have created several places and inside each of them a Tokenizer class. When I try to compile project, I receive the following errors:</p>
+
+<pre><code>Found type 'com.calendarmvp.client.mvp.AppPlaceHistoryMapper'
+     [ERROR] Annotation error: cannot resolve  com.calendarmvp.client.place.GreetingsPlace$Tokenizer
+    java.lang.ClassNotFoundException: com.calendarmvp.client.place.GreetingsPlace$Tokenizer
+at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+at java.security.AccessController.doPrivileged(Native Method)
+at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+at java.lang.Class.forName0(Native Method)
+at java.lang.Class.forName(Class.java:247)
+at com.google.gwt.dev.javac.TypeOracleMediator.resolveAnnotationValue(TypeOracleMediator.java:750)
+at com.google.gwt.dev.javac.TypeOracleMediator.resolveAnnotationValue(TypeOracleMediator.java:689)
+at com.google.gwt.dev.javac.TypeOracleMediator.createAnnotation(TypeOracleMediator.java:498)
+at com.google.gwt.dev.javac.TypeOracleMediator.resolveAnnotation(TypeOracleMediator.java:648)
+at com.google.gwt.dev.javac.TypeOracleMediator.resolveAnnotations(TypeOracleMediator.java:663)
+at com.google.gwt.dev.javac.TypeOracleMediator.resolveClass(TypeOracleMediator.java:809)
+at com.google.gwt.dev.javac.TypeOracleMediator.addNewTypes(TypeOracleMediator.java:439)
+at com.google.gwt.dev.javac.TypeOracleMediatorFromSource.addNewUnits(TypeOracleMediatorFromSource.java:52)
+at com.google.gwt.dev.javac.CompilationState.assimilateUnits(CompilationState.java:164)
+at com.google.gwt.dev.javac.CompilationState.&lt;init&gt;(CompilationState.java:82)
+at com.google.gwt.dev.javac.CompilationStateBuilder.doBuildFrom(CompilationStateBuilder.java:450)
+at com.google.gwt.dev.javac.CompilationStateBuilder.buildFrom(CompilationStateBuilder.java:370)
+at com.google.gwt.dev.cfg.ModuleDef.getCompilationState(ModuleDef.java:360)
+at com.google.gwt.dev.Precompile.precompile(Precompile.java:252)
+at com.google.gwt.dev.Precompile.precompile(Precompile.java:233)
+at com.google.gwt.dev.Precompile.precompile(Precompile.java:145)
+at com.google.gwt.dev.Compiler.run(Compiler.java:232)
+at com.google.gwt.dev.Compiler.run(Compiler.java:198)
+at com.google.gwt.dev.Compiler$1.run(Compiler.java:170)
+at com.google.gwt.dev.CompileTaskRunner.doRun(CompileTaskRunner.java:88)
+at com.google.gwt.dev.CompileTaskRunner.runWithAppropriateLogger(CompileTaskRunner.java:82)
+at com.google.gwt.dev.Compiler.main(Compiler.java:177)
+   [ERROR] Annotation error: expected class java.lang.Class, got null
+</code></pre>
+
+<p>My GreetingsPlace class is such:</p>
+
+<pre><code>public class GreetingsPlace extends Place {
+  private String GreetingsPlaceName;
+
+  public GreetingsPlace(String place) {
+    this.GreetingsPlaceName = place;
+  }
+
+  public String getGreetingsPlaceName() {
+    return GreetingsPlaceName;
+  }
+
+  public static class Tokenizer implements PlaceTokenizer&lt;GreetingsPlace&gt; {
+
+    @Override
+    public String getToken(GreetingsPlace place) {
+      return place.getGreetingsPlaceName();
+    }
+
+    @Override
+    public GreetingsPlace getPlace(String token) {
+      return new GreetingsPlace(token);
+    }
+  }
+}
+</code></pre>
+
+<p>AppPlaceHistoryMapper is such:</p>
+
+<pre><code>@WithTokenizers({
+    HelloPlace.Tokenizer.class, 
+    GoodbyePlace.Tokenizer.class,
+    GreetingsPlace.Tokenizer.class, 
+    ManagerPlace.Tokenizer.class,
+    UserPlace.Tokenizer.class
+    })
+public interface AppPlaceHistoryMapper extends PlaceHistoryMapper {
+}
+</code></pre>
+
+<p>Maybe I am missing something... Can anyone help me? Thank's in advance!</p>
+",java gwt mvp
+58963,Is 'some_program <some_file' faster than 'cat some_file | some_program'?,"<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href=""http://unix.stackexchange.com/questions/16279/should-i-care-about-unnecessary-cats"">Should I care about unnecessary cats?</a>  </p>
+</blockquote>
+
+
+
+<p>Both would be functionally equivalent, but when using cat wouldn't it be slower because you have a process first reading the file and then sending it through a pipe to another process, instead of the process just reading the file? But I've seen this usage 'cat file | program' in a lot of examples. I assume they wouldn't use it that much in examples if it had bad performance.</p>
+",io-redirection pipe cat
+58964,Strange thin fonts in Google Chrome last version,"<p>When I rebooted my Mac, Google Chrome suddenly are displaying all fonts in a very thin partly jagged style which wasn´t the case before the reboot.</p>
+
+<p>Is there a way to use CSS to restore it? Is there a known font issue with Chrome?</p>
+
+<p>Chrome version: 18.0.1025.142 Mac OS version: 10.7.2</p>
+
+<p>Thankful for all input!</p>
+",google-chrome
+58965,Comparison of Speech Recognition use in Android: by Intent or on-thread?,"<h1>Introduction</h1>
+
+<p>Android provides two ways for me to use speech recognition. </p>
+
+<p>The <strong>first</strong> way is by an <code>Intent</code>, as in this question: <a href=""http://stackoverflow.com/questions/7335694/implementing-recognizerintent-in-android"">Intent example</a>. A new <code>Activity</code> is pushed onto the top of the stack which listens to the user, hears some speech, attempts to transcribes it (normally via the cloud) then returns the result to my app, via an <code>onActivityResult</code> call.</p>
+
+<p>The <strong>second</strong> is by getting a <code>SpeechRecognizer</code>, like the code here: <a href=""http://stackoverflow.com/q/4559930/705048"">SpeechRecognizer example</a>. Here, it looks like the speech is recorded and transcribed on some other thread, then callbacks bring me the results. And this is done <em>without leaving my <code>Activity</code></em>.</p>
+
+<p>I would like to understand the <strong>pros and cons of these two ways of doing speech recognition</strong>.</p>
+
+<h1>What I've got so far</h1>
+
+<p>Using the <code>Intent</code>:</p>
+
+<ul>
+<li>is simple to code</li>
+<li>avoids reinventing the wheel</li>
+<li>gives consistent user experience of speech recognition across the device</li>
+</ul>
+
+<p>but</p>
+
+<ul>
+<li>might be slow for the creation of a new activity with it's own window</li>
+</ul>
+
+<p>Using the <code>SpeechRecognizer</code>:</p>
+
+<ul>
+<li>lets me retain control of UI in my app</li>
+<li>gives me extra possibilities of things to respond to (<a href=""http://developer.android.com/reference/android/speech/RecognitionListener.html"">documentation</a>)</li>
+</ul>
+
+<p>but</p>
+
+<ul>
+<li>is limited to be called from the main thread</li>
+<li>more control requires more error-checking.</li>
+</ul>
+",android android-intent speech-recognition speech-to-text
+58966,Testing posting to multiple pages,"<p>We're working on a system that will people to post to multiple pages (think Hootsuite). </p>
+
+<p>We obviously want to be able to test this before launch, and to do so will need to test across multiple pages. The message in most cases will be slightly different, but it'll be useful to test for any rate limits we're unaware of.</p>
+
+<p>I can obviously go and create X Facebook pages for test purposes, but is there any way to create a 'test page', like you can create test accounts? Nothing in the documentation that I've seen suggests this, but wanted to check.</p>
+
+<p>Many thanks,
+Kev</p>
+",testing facebook-page
+58967,Using Parsec with Data.Text,"<p>Using Parsec 3.1, it is possible to parse several types of inputs:</p>
+
+<ul>
+<li><code>[Char]</code> with <code>Text.Parsec.String</code></li>
+<li><code>Data.ByteString</code> with <code>Text.Parsec.ByteString</code></li>
+<li><code>Data.ByteString.Lazy</code> with <code>Text.Parsec.ByteString.Lazy</code></li>
+</ul>
+
+<p>I don't see anything for the <code>Data.Text</code> module. I want to parse Unicode content without suffering from the <code>String</code> inefficiencies.  So I've created the following module based on the <code>Text.Parsec.ByteString</code> module: </p>
+
+<pre><code>{-# LANGUAGE FlexibleInstances, MultiParamTypeClasses #-}
+{-# OPTIONS_GHC -fno-warn-orphans #-}
+
+module Text.Parsec.Text
+    ( Parser, GenParser
+    ) where
+
+import Text.Parsec.Prim
+
+import qualified Data.Text as T
+
+instance (Monad m) =&gt; Stream T.Text m Char where
+    uncons = return . T.uncons
+
+type Parser = Parsec T.Text ()
+type GenParser t st = Parsec T.Text st
+</code></pre>
+
+<ol>
+<li>Does it make sense to do so?</li>
+<li>It this compatible with the rest of the Parsec API?</li>
+</ol>
+
+<hr>
+
+<p>Additional comments: </p>
+
+<p>I had to add <code>{-# LANGUAGE NoMonomorphismRestriction #-}</code> pragma in my parse modules to make it work.</p>
+
+<p>Parsing <code>Text</code> is one thing, building an AST with <code>Text</code> is another thing.  I will also need to <code>pack</code> my <code>String</code> before return:</p>
+
+<pre><code>module TestText where
+
+import Data.Text as T
+
+import Text.Parsec
+import Text.Parsec.Prim
+import Text.Parsec.Text
+
+input = T.pack ""xxxxxxxxxxxxxxyyyyxxxxxxxxxp""
+
+parser = do
+  x1 &lt;- many1 (char 'x')
+  y &lt;- many1 (char 'y')
+  x2 &lt;- many1 (char 'x')
+  return (T.pack x1, T.pack y, T.pack x2)
+
+test = runParser parser () ""test"" input
+</code></pre>
+",haskell parsec
+58968,Paypal IPN on return page,"<p>I am trying to sell digital goods via paypal on my web page and I have completed. Here's the process that I implemented.</p>
+
+<ol>
+<li>User selects an item on my web page, and pays for it on a Paypal web page.</li>
+<li>The user clicks ""back to seller@email.com"" and clicks ""redirect to the previous page""</li>
+<li>The user is redirected to www.mydomain.com/thankyou.php.</li>
+<li>In thankyou.php, it gets IPN values from Paypal and update the database.</li>
+</ol>
+
+<p>The process above works fine. However, I am so sure many users will not press ""redirect"" link. How do I know if the user completed a transaction in case that he/she did not press ""redirect to the previous page"" link? </p>
+",paypal ipn
+58969,Why Windows 7 Windows XP Mode is needed? Can't I just run the Virtual PC with XP image on it?,"<p>Windows 7 Ultimate has a Windows XP Mode, and it is <strong>not</strong> supported for Windows 7 Home Premium version.</p>
+
+<p>The question is, why do I need it?  Can't I just download Microsoft Virtual PC and the XP disk image and be able to run XP?  Maybe the catch is that it will expire.  Is that the only difference?</p>
+",windows-7 windows-xp-mode
+58970,length of dropdown list,"<p>i have a drop down list in my form. it contains a lot of values. so when i click on it, it covers whole of the page, along with the scroll bar. is there a way to limit the length of the drop down list, say showing only 10 values at a time. any help is very much appreciated</p>
+",html
+58971,Add a character each x characters in Ruby,"<p>I would like to break a long word in my Ruby on Rails string (something like <code>&lt;wbr&gt;</code> in HTML). </p>
+
+<p>Is it possible to tell Ruby to add character <code>x</code> in string <code>y</code> each <code>z</code> characters?</p>
+",ruby regex string character
+58972,Border for svg elements,"<p>I am working with svg and its dom manipulation. I want to create a border for a group of svg elements positioned inside the <code>&lt;g&gt;</code> tag. How do I do this? Is it possible to create circular / elliptical boundaries also? I am using the jQuery SVG library. Thanks in advance</p>
+
+<pre><code>&lt;g&gt;
+&lt;rect x=""20"" y=""30"" width=""200"" height=""300"" fill = ""red""/&gt;
+&lt;circle cx=""40"" cy=""50"" r=""25"" fill=""blue""/&gt;
+&lt;/g&gt;
+</code></pre>
+",javascript svg jquery-svg
+58973,How do I search and match the contents in a file?,"<p>I have a text file:</p>
+
+<pre><code>&lt;table style=""background-color: #f3f3f3; font-family: Arial; font-size: 8pt; border-top: #e7e7e7 5px solid"" border=""0"" cellspacing=""0"" cellpadding=""0""&gt;
+  &lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=""padding-bottom: 20px; padding-left: 20px; padding-right: 20px; padding-top: 20px""&gt;
+&lt;p style=""color: #b0b0b0""&gt;&lt;font color=""#808080"" size=""1""&gt;&lt;strong&gt;Important information&lt;/strong&gt;: on this communication as it does not purport to be comprehensive. This disclaimer does not purport to exclude any warranties implied by law which may not be lawfully excluded. We have taken precautions to minimise the risk of transmitting software viruses, but we advise you to carry out your own virus checks on any attachment to this e-mail. We cannot accept liability for any loss or damage caused by software &lt;/p&gt;
+</code></pre>
+
+<p>This is not a dump of the website, it's what the application puts into a file.</p>
+
+<p>My method for checking the text file looks like this:</p>
+
+<pre><code>def check_email_exists(firstname, email_sub, search_string)
+email_fldr=""C:\\Agent\\TestMailFolder""
+email_id=""myname@gmail.com""
+Dir.chdir(""#{email_fldr}\\#{firstname}"") do
+  Dir.glob(""#{email_id}*#{email_sub}*"") do |filename|
+    File.open(filename) do |file|
+      file.readlines(filename).index(""#{search_string}"")
+    end
+   end
+  end
+end
+</code></pre>
+
+<p>This is not working. </p>
+
+<p>I am passing values in my <code>search_string</code> which are strings. For example, I am trying to see if the <code>string = ""transmitting software""</code> is in the file. Also I am checking if the file contains some random strings which are not there. In this case it should pass if it finds and matches the value in the file and fail if it can't.</p>
+",ruby file-io
+58974,Get all elements that only occur once,"<p>Using LINQ, can I get a list of all int elements that only occur once? </p>
+
+<p>For instance</p>
+
+<pre><code>{1,2,4,8,6,3,4,8,8,2}
+</code></pre>
+
+<p>would become</p>
+
+<pre><code>{1,6,3}
+</code></pre>
+
+<p>Thanks!</p>
+",c# linq list element distinct
+58975,jQuery(this) in each only get the last value,"<p>I have this piece of code and the variable <em>toto</em> has the same value in each cells of the array (the other threads say that a scope problem but I use <strong><code>var titi=jQuery(this).text();</code></strong> and <code>titi=jQuery(this).text();</code></p>
+
+<h1>HTML</h1>
+
+<pre><code>&lt;table name='xnnjz'&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+</code></pre>
+
+<h1>JavaScript</h1>
+
+<pre><code>var i=0;
+jQuery(""table['name=xnnjz'] tr.child-of-application""+indep+"" td"").each(function () {
+    var titi=jQuery(this).text();
+    toto[i]=titi;
+    i=i+1;
+});
+console.log(toto);
+</code></pre>
+
+<p>In console log : </p>
+
+<pre><code>toto=[3,3,3]
+</code></pre>
+
+<p>Could you help me?</p>
+",jquery wordpress scope each
+58976,Multiple pseudo elements,"<p>Is it possible to get multiple pseudo elements in one object just like these ones ?</p>
+
+<pre><code>div { content: 'A' }
+div::before { content: 'B'; }
+div::before(2) { content: 'C'; }
+div::before(3) { content: 'D'; }
+</code></pre>
+
+<p>I have tried it on <a href=""http://jsfiddle.net/2mQpa/"" rel=""nofollow"">http://jsfiddle.net/2mQpa/</a> but it doesn't work</p>
+
+<p>Thanks</p>
+",css css3 pseudo-element
+58977,Fatal error with - pear install pear.phpunit.de/PHPUnit,"<p>I followed <a href=""http://superuser.com/questions/55055/how-to-install-an-updated-version-of-pear-phpunit-on-ubuntu"">this post</a> but it did not help</p>
+
+<p>I am executing following shell commands on a Remote CI system (Fedora) to install php tools:</p>
+
+<pre><code>wget http://pear.php.net/go-pear.phar
+php go-pear.phar
+pear config-set auto_discover 1
+pear install pear.phpunit.de/PHPUnit
+</code></pre>
+
+<p>On execution of php unit command I encounter following exception -</p>
+
+<pre><code>pear install pear.phpunit.de/PHPUnit
+PHP Fatal error:  Call to undefined method PEAR::raiseErro() in /usr/share/pear/PEAR/REST.php on line 165
+PHP Stack trace:
+PHP   1. {main}() /usr/share/pear/pearcmd.php:0
+PHP   2. PEAR_Command_Common-&gt;run() /usr/share/pear/pearcmd.php:305
+PHP   3. PEAR_Command_Install-&gt;doInstall() /usr/share/pear/PEAR/Command/Common.php:271
+PHP   4. PEAR_Downloader-&gt;download() /usr/share/pear/PEAR/Command/Install.php:661
+PHP   5. PEAR_Downloader_Package-&gt;initialize() /usr/share/pear/PEAR/Downloader.php:279
+PHP   6. PEAR_Downloader_Package-&gt;_fromString() /usr/share/pear/PEAR/Downloader/Package.php:190
+PHP   7. PEAR_Downloader-&gt;_getPackageDownloadUrl() /usr/share/pear/PEAR/Downloader/Package.php:1713
+PHP   8. PEAR_REST_13-&gt;getDownloadURL() /usr/share/pear/PEAR/Downloader.php:850
+PHP   9. PEAR_REST-&gt;retrieveData() /usr/share/pear/PEAR/REST/13.php:68
+Finished: FAILURE
+</code></pre>
+
+<p>Are there any more commands I need to add?</p>
+",php phpunit jenkins pear fedora
+58978,External screen flickers when cpu usage is high,"<p>I have a Thinkpad laptop W510 running Linux Ubuntu 12.04 with NVidia drivers, connected to an external 24"" Eizo screen via displayport. The screen behaves ok under normal conditions, but if the CPU usage is pumped up to maximum, the external screen starts flickering every 30 seconds, pretty regularly, only once (that is, it's not a constant, repeated on/off/on/off flicker, it's a short single burst that may appear as a dark bar somewhere, lasting a fraction of a second). </p>
+
+<p>If the CPU usage goes down to normal, no problem. If it climbs up again, it starts again after a couple of minutes. Cabling is perfect.</p>
+
+<p>Where is the problem, and how can it be fixed?</p>
+",multiple-monitors screen
+58979,Stuck trying to align menu Items,"<p>I am having a major mental block on trying to lay out a specific navigational menu.  What I have is a menu bar across the top of the page. There are smaller links along the bar that are text links with an image beside each. The problem is that there is a larger logo in the middle of the page which serves as a link to the home page. So the navigation layout looks something like this:</p>
+
+<pre><code> - - - # - - -
+</code></pre>
+
+<p>The problem I am having is the logo isn't perfectly symetrical, which means <code>vertical-align: middle</code> puts the smaller links lower than they should be.  What is the best way to put this together?  I need to be able to adjust the verticle position of the small links independently of the logo.</p>
+
+<p>As far as the html, my nav is just a simple inline <code>&lt;ul&gt;</code>. Each <code>&lt;li&gt;</code>has a class, and the logo <code>&lt;li&gt;</code> has a unique class assigned to it.</p>
+",html css
+58980,What are some resources for learning MSIL?,"<p>Can someone please give me a link to a tutorial or answer how to read msil. </p>
+
+<p>I think once I learn how to read this it could be a very useful tool.</p>
+",c# microsoft tutorials disassembling
+58981,How do I make toolbars that look like the ones in Keynote?,"<p>Here's a screenshot of keynote on the ipad:</p>
+
+<p><img src=""http://scottyallen.com/random/IMG_0009.PNG"" alt=""alt text""></p>
+
+<p>The toolbar is pretty flat - it doesn't have a vertical gradient the way the builtin toolbar styles do. I've played with the different styles, the translucent flag, and the tint color, and haven't been able to replicate it.</p>
+
+<p>How are they doing this?  How would I implement it?</p>
+",iphone objective-c ipad
+58982,How to use SQLiteOpenHelper without or less restrictive use of Context?,"<p>If you extend SQLiteOpenHelper, for the Constructor you have to use a Context. I am wondering if there is a way to leave this out, and be able to work with database tables without a Context.</p>
+
+<p>Or at least be least restrictive, I mean a way of project/class structure that will make history the several context passings I have to do now. </p>
+
+<p>As it is my application has several level of classes, chained in each other, and there are a few that connects to the database, but have no whatsoever influence on the interface, so they don't actually need the Context.</p>
+
+<p>Are you creating your classes in the way that you pass each time a Context to them?<br>
+If not, how you do, how you reuse a Context in a short class?</p>
+",java android coding-style
+58983,Array ordering in javascript - different results comparing IE8 and Chrome,"<p>The array (note order of items):</p>
+
+<pre><code>{
+  ""5"":{
+      ""Title"":""Title A"",
+      ""Desc"":""Description A""
+  },
+  ""15"":{
+      ""Title"":""Title B"",
+      ""Desc"":""Description B""
+  },
+  ""10"":{
+      ""Title"":""Title C"",
+      ""Desc"":""Description C""
+  },
+  ""1"":{
+      ""Title"":""Title D"",
+      ""Desc"":""Description D""
+  },
+  ""20"":{
+      ""Title"":""Title E"",
+      ""Desc"":""Description E""
+  }
+}
+</code></pre>
+
+<p>Now, the js code below does change order if run on chrome or IE9.</p>
+
+<pre><code>for ( var i in data ) {
+    alert(JSON.stringify(data[i]));
+}
+</code></pre>
+
+<p>IE8 preserves original order, while newer browsers change the order to 1, 5, 10 ,15, 20.</p>
+
+<p>Any idea why this may be happening? Is it possible to preserve original order in newer browsers?</p>
+
+<p>Many thanks, Luke</p>
+",javascript arrays google-chrome internet-explorer-8 cross-browser

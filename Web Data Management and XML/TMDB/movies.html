@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+  Student Name: Akshay Mattoo (1000995551)
+  URL: http://omega.uta.edu/~axm5553/project2/movies.html
+-->
+<html lang="en">
+  <head>
+    <title>Display Movie Information</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="movies.js"></script>
+  </head>
+  <body onload="initialize();">
+    <form>
+       <label>Movie title: <input type="text" id="form-input"/></label>
+       <input type="button" onclick="sendRequest();" value="Display Info"/>
+
+    </form>
+
+      <div id="box" style="visibility: hidden;float: right;margin-right: 300px;"></div>
+      <div>
+     <table id="myTable" border="1" style="visibility: hidden;">
+     </table>
+
+  </body>
+</html>

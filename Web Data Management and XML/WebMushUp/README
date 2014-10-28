@@ -1,0 +1,7 @@
+This is awebmushup application using YELP API and GOOGLE MAPS API
+When you write some search terms in the search text area, say "Indian buffet", it will find the 10 best restaurants in the map area that match the search terms. They may be less than 10 (including zero) sometimes. The map will display the location of these restaurants as map overlay markers with labels from 1 to 10. The text display area will display various information about these restaurants. It will be an ordered list from 1 to 10 that correspond to the best 10 matches. Each list item in the display area will include the following information about the restaurant: the image "image_url", the "name" as a clickable "url" to the Yelp page of this restaurant, the image "rating_img_url" (1-5 stars), and the "snippet_text". When you search for new terms, it will clear the display area and all the map overlay markers, and will create new ones based on the new search.
+
+
+URL to have to look is below.
+
+http://omega.uta.edu/~axm5553/project3/yelp.html

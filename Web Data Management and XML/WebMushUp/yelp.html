@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- Student Name: Akshay Mattoo (1000995551)
+    URL : http://omega.uta.edu/~axm5553/project3/yelp.html
+  -->
+<html lang="en">
+  <head>
+    <title>Web Mashup: Display Best Restaurants on a Map</title>
+    <meta charset="utf-8"/>
+    <style type="text/css">
+
+      .intro
+      {
+      margin-top:40px;
+      margin-bottom:100px;
+      margin-right:50px;
+      margin-left:50px;
+      width: 500px;
+      }
+
+      .mapp
+      {
+      width:500px;
+      height:600px;
+      margin-top:40px;
+      margin-bottom:100px;
+      margin-right:180px;
+      float:right;
+      }
+
+    </style>
+    <script type="text/javascript" src="yelp.js"></script>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD444LYWnyzhHiPGOuORaAAC0n5rxXLlfo&sensor=false"> 
+    </script>
+  </head>
+  <body onload="initialize();">
+    <form>
+       <label>Search Terms: <input type="text" id="search"/></label>
+       <input type="button" onclick="sendRequest();" value="Find"/>
+    </form>
+    <div id="googleMap" class="mapp" ></div>
+
+    <div class="intro" id="output">
+
+
+    </div>
+ 
+  </body>
+</html>

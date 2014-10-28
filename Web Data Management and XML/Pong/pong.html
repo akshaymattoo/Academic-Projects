@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!-- Student Name:   -->
+<html lang="en">
+  <head>
+    <title>A Pong Game in JavaScript</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" src="Pong.js"></script>
+  </head>
+  <body onload="initialize();" onmousemove="movePaddle(event);">
+    <form>
+      <label>Slow<input type="radio" name="speed" value="0" checked="checked" onclick="setSpeed(0);"/></label>
+      <label>Medium<input type="radio" name="speed" value="1" onclick="setSpeed(1);"/></label>
+      <label>Fast<input type="radio" name="speed" value="2" onclick="setSpeed(2);"/></label>
+      <input type="button" value="Reset" onclick="resetCounter();" />
+      <label>Score: <span id="message">0</span></label>
+      <br/>
+      <br/>
+      <div id="court" style="border: solid black; cursor: none; width: 1100px; height: 600px;" onclick="startGame(event);">
+	<img id="ball" src="http://lambda.uta.edu/cse5335/ball.gif" style="margin: 0; padding: 0px; position: relative; top: -50px;" />
+	<img id="paddle" src="http://lambda.uta.edu/cse5335/paddle.gif" style="margin: 0; padding: 0; position: relative; left: 1000px;" />
+      </div>
+    </form>
+  </body>
+</html>
